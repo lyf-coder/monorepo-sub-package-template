@@ -9,7 +9,7 @@
     ],
     "scripts": {
         "build": "tsc",
-        "clean-build": "rm -rf dist/* && tsc",
+        "clean-build": "rm -rf dist/* && rm -rf ./tsconfig.tsbuildinfo && tsc",
         "dev": "ts-node src/hello.ts"
     },
     "keywords": [],
